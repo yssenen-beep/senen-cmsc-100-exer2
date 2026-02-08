@@ -1,28 +1,21 @@
+body  {
+  background-color: #27445C;
+}
+
 .flex-container {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    flex-direction: row;
+
 }
 
 .nav_bar {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(255, 0, 200);
-    flex-direction: row;
+  display: inline-flex;
 }
 
-.flex-container2 {
-    display: flex;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(0, 255, 51);
-    flex-direction: row;
+.nav_bar > button {
+  color: white;
 }
-.flex-item {
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
+
+.footer {
+
 }
+
+
