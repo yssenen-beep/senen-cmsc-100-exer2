@@ -6,9 +6,7 @@ body  {
   height: 50px;
   padding: 10px;
 }
-.flex-container {
 
-}
 
 .nav_bar {
   display: flex;
@@ -18,18 +16,23 @@ body  {
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 }
 
-.intro-format {
-  width: 50%;
+
+body {
+  display: grid;
+  grid-template-rows: auto auto auto;
 }
-
-
+.coding_languange {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
 .nav_bar > button {
   color: white;
 }
 
 .introduction {
   color: white;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
 } 
 .nav-bar-buttons {
   display: flex;
@@ -41,7 +44,11 @@ body  {
 }
 
 .footer {
-
+  display: flex;
+  justify-content: space-between;
+  gap: 10;
+  align-items: center;
+  box-shadow: 0px -10px 10px rgba(0,0,0,0.1);
 }
 
 
