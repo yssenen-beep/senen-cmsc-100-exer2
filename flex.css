@@ -2,6 +2,9 @@ body  {
   background-color: #27445C;
 }
 
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 .logo {
   width: 50px;
   height: 50px;
@@ -32,10 +35,6 @@ body {
   margin: 50px;
 }
 
-.nav_bar > button {
-  color: white;
-}
-
 .introduction {
   color: white;
   display: grid;
@@ -49,19 +48,40 @@ body {
   
 .intro {
   grid-area: intro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
 }
 
 .intro_paragraph {
   grid-area: intro_paragraph;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .pfp {
-  grid-area: pfp;
+  grid-area: pfp;        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
 }
 
 .intro_buttons {
   grid-area: intro_buttons;
-  display: grid;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.intro_buttons button {
+  height:40px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .nav-bar-buttons {
@@ -80,6 +100,15 @@ body {
   gap: 10;
   align-items: center;
   box-shadow: 0px -10px 10px rgba(0,0,0,0.1);
+  color: white;
+}
+
+.footer p {
+  margin-left: 20px;
+}
+
+.footer h2 {
+  margin: 10px;
 }
 
 .card {
@@ -89,6 +118,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
 }
 .projects {
   display: grid;
